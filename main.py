@@ -166,7 +166,7 @@ def send_graphics(update: Update, context: CallbackContext) -> None:
 
 # Botni ishga tushirish
 def main():
-    updater = Updater("YOUR TELEGRAM BOT TOKEN")
+    updater = Updater("7576175283:AAGMBGTjsGn--uIsXaSb2re7Tz6xnJ1vUxs")
     dispatcher = updater.dispatcher
 
     # Komandalar
