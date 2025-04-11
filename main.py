@@ -9,6 +9,10 @@ from io import BytesIO
 # Foydalanuvchi ma'lumotlarini saqlash va olish
 USER_DATA_FILE = "user_data.json"
 
+# Webhookni o'chirish uchun yordamchi funksiya
+async def remove_webhook(application: Application):
+    await application.bot.delete_webhook()
+    
 # Tanbeh, Maqtov va Motivatsiya so'zlari
 REBELLIOUS_PHRASES = [
     "Haqoratli tanbeh 1", "Haqoratli tanbeh 2", "Haqoratli tanbeh 3", 
